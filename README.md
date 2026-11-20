@@ -12,7 +12,7 @@ The file is a copy of `https://mybctv.com/ads.txt`, which Wix does host (Marketi
 
 ## The Wix redirect
 
-Wix dashboard → Marketing & SEO → SEO → URL Redirect Manager: `/app-ads.txt` → `https://mwender.github.io/mybctv-app-ads/app-ads.txt` (301).
+Wix dashboard → Marketing & SEO → SEO → URL Redirect Manager: `/app-ads.txt` → `https://ads.mybctv.com/app-ads.txt` (301). `ads.mybctv.com` is a CNAME to `mwender.github.io` in Wix DNS (Domains → mybctv.com → Manage DNS Records), set as this repo's GitHub Pages custom domain (the `CNAME` file).
 
 Before 2026-11-20 it pointed at `https://streamstak.com/bctv/app-ads.txt`, which returned 404.
 
